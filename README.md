@@ -35,13 +35,13 @@ git clone https://github.com/USUARIO/NOMBRE-REPOSITORIO.git
 
 2- Abrir el proyecto en NetBeans
 Abrir NetBeans
-Ir a: File → Open Project
+Ir a: File - Open Project
 Seleccionar la carpeta del proyecto clonado
 
 3- Ejecutar el programa
 Ubicar la clase principal:
 PruebaAV.java
-Click derecho → Run File
+Click derecho - Run File
 
 4- Uso de la aplicación
 Al ejecutar el programa, se mostrará en consola información de distintos contenidos audiovisuales:
