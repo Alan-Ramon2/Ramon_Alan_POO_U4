@@ -1,4 +1,3 @@
-Proyecto: Sistema de Contenido Audiovisual en Java (POO + MVC)
 -Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo de una aplicación en Java basada en los principios de la Programación Orientada a Objetos (POO). El sistema permite gestionar distintos tipos de contenido audiovisual como películas, series, documentales y contenido de redes sociales (TikTok e Instagram).
@@ -49,49 +48,3 @@ Click derecho → Run File
 
 Al ejecutar el programa, se mostrará en consola información de distintos contenidos audiovisuales:
 
-Ejemplo de salida:
-
-|   Tarea Unidad 2   | 
-|     Alan Ramon     |
-
-      PELICULA      
-ID: 0
-Titulo: Interstellar
-Duracion: 169
-Genero: Ciencia Ficcion
-Estudio: Paramount
-Actores:
-- Matthew McConaughey
-- Anne Hathaway
-
-      SERIE       
-ID: 1
-TItulo: Breaking Bad
-DuraciOn: 50
-Genero: Drama
-Temporadas: 5
-Temporada 1 - Episodios: 7
-Temporada 2 - Episodios: 13
-
-    DOCUMENTAL   
-ID: 2
-Titulo: Planeta Tierra
-Duracion: 60
-Genero: Naturaleza
-Tema: Ecosistemas
-Investigadores:
-- David Attenborough
-
-      TIKTOK     
-ID: 3
-Titulo: Baile Viral
-Duracion: 1
-Categoria: Entretenimiento
-Likes: 500000
-
-     INSTAGRAM     
-ID: 4
-Titulo: Receta rapida
-Duracion: 2
-Categoria: Cocina
-Vistas: 120000
