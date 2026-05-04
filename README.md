@@ -1,7 +1,8 @@
 Proyecto: Sistema de Contenido Audiovisual en Java (POO + MVC)
 -Descripción del Proyecto
 
-Este proyecto consiste en el desarrollo de una aplicación en Java basada en los principios de la Programación Orientada a Objetos (POO). El sistema permite gestionar distintos tipos de contenido audiovisual como películas, series, documentales y contenido de redes sociales (TikTok e Instagram).
+Este proyecto consiste en el desarrollo de una aplicación en Java basada en los principios de la Programación Orientada a Objetos (POO). El sistema permite
+gestionar distintos tipos de contenido audiovisual como películas, series, documentales y contenido de redes sociales (TikTok e Instagram).
 
 Se aplican conceptos fundamentales como:
 Herencia y polimorfismo
