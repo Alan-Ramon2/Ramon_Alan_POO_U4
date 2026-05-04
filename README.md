@@ -47,12 +47,12 @@ Click derecho → Run File
 4- Uso de la aplicación
 Al ejecutar el programa, se mostrará en consola información de distintos contenidos audiovisuales:
 
-      PELICULA      
+PELICULA   
 Titulo: Interstellar
 Genero: Ciencia Ficcion
 Actores:
 - Matthew McConaughey
 
-      SERIE       
+SERIE      
 TItulo: Breaking Bad
 Temporadas: 5
