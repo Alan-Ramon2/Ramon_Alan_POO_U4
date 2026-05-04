@@ -30,16 +30,15 @@ Aplicación ejecutable en consola
 
 -Instrucciones de instalación y uso
 1- Clonar el repositorio
-
 Abrir terminal o Git Bash y ejecutar:
-
 git clone https://github.com/USUARIO/NOMBRE-REPOSITORIO.git
+
 2- Abrir el proyecto en NetBeans
 Abrir NetBeans
 Ir a: File → Open Project
 Seleccionar la carpeta del proyecto clonado
-3- Ejecutar el programa
 
+3- Ejecutar el programa
 Ubicar la clase principal:
 PruebaAV.java
 Click derecho → Run File
