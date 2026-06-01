@@ -17,18 +17,18 @@ Durante la complementación del proyecto desde la Unidad 3 se implementaron las 
 
 ## Estructura del Proyecto
 
-### Modelo (modelo)
+### Modelo
 - `Equipo.java` - Representa un equipo participante
 - `Partido.java` - Representa un enfrentamiento entre dos equipos
 - `Torneo.java` - Lógica del sorteo recursivo
 
-### Vista (vista)
+### Vista
 - `ConsolaVista.java` - Interfaz de usuario por consola
 
-### Controlador (controlador)
+### Controlador
 - `TorneoControlador.java` - Coordina la comunicación entre modelo y vista
 
-### Persistencia (persistencia)
+### Persistencia
 - `ITorneoRepositorio.java` - Interfaz para operaciones de persistencia
 - `TorneoRepositorioArchivo.java` - Implementación con archivos CSV
 - `PersistenciaException.java` - Manejo de excepciones personalizadas
@@ -38,11 +38,11 @@ Durante la complementación del proyecto desde la Unidad 3 se implementaron las 
 
 ## Requisitos
 - Java JDK 17 o superior
-- Apache NetBeans / IntelliJ IDEA / Eclipse
+- Apache NetBeans
 - Git (opcional, para clonar)
 
 ## Cómo Clonar el Proyecto
 Ejecutar el siguiente comando:
 
 ```bash
-git clone https://github.com/su-usuario/sorteo-torneos-unidad4
+git clone https://github.com/Alan-Ramon2/Ramon_Alan_POO_U4.git
