@@ -69,9 +69,7 @@ public class TorneoTest {
             System.out.println("  [fallo] prueba 4: equipo vacio debio lanzar excepcion");
         } catch (IllegalArgumentException e) {
             System.out.println("  [ok] prueba 4: equipo vacio lanza excepcion");
-            pasaran++;
-        } catch (Exception e) {
-            System.out.println("  [fallo] prueba 4: " + e.getMessage());
+            pasaron++;  // ← CORREGIDO: era "pasaran++", ahora es "pasaron++"
         }
         
         // prueba 5: equipo null
@@ -82,8 +80,6 @@ public class TorneoTest {
         } catch (IllegalArgumentException e) {
             System.out.println("  [ok] prueba 5: equipo null lanza excepcion");
             pasaron++;
-        } catch (Exception e) {
-            System.out.println("  [fallo] prueba 5: " + e.getMessage());
         }
         
         // prueba 6: cantidad incorrecta de equipos
