@@ -1,58 +1,48 @@
-Proyecto: Sistema de Contenido Audiovisual en Java (POO + MVC)
--Descripción del Proyecto
+# Sistema de Sorteo de Torneos
 
-Este proyecto consiste en el desarrollo de una aplicación en Java basada en los principios de la Programación Orientada a Objetos (POO). El sistema permite
-gestionar distintos tipos de contenido audiovisual como películas, series, documentales y contenido de redes sociales (TikTok e Instagram).
+## Descripción
+Proyecto desarrollado para la asignatura de **Programación Orientada a Objetos**.
 
-Se aplican conceptos fundamentales como:
-Herencia y polimorfismo
-Clases abstractas
-Relaciones entre clases (asociación, agregación y composición)
-Organización mediante paquetes
-Implementación del patrón arquitectónico MVC (Modelo - Vista - Controlador)
+El sistema permite realizar sorteos aleatorios de enfrentamientos entre equipos para torneos de eliminación directa en diferentes etapas: octavos de final, cuartos de final, semifinales y final. Aplica principios de código limpio, SOLID, arquitectura MVC y persistencia en archivos CSV.
 
-El propósito del proyecto es modelar un sistema realista de contenido audiovisual y demostrar buenas prácticas en el desarrollo de software.
+## Cambios Realizados
+Durante la complementación del proyecto desde la Unidad 3 se implementaron las siguientes mejoras:
 
--Características principales
-Gestión de contenido audiovisual mediante una clase base ContenidoAudiovisual
-Subclases implementadas:
-Película
-Serie de TV
-Documental
-TikTokVideo
-InstagramReel
-Implementación de relaciones:
-Asociación - Actor (Película)
-Agregación - Temporada (Serie)
-Composición - Investigador (Documental)
-Uso de polimorfismo para recorrer objetos
-Implementación del patrón MVC con el sistema de estudiantes
-Aplicación ejecutable en consola
+- **Manejo de archivos**: Persistencia de torneos mediante archivo CSV (`TorneoRepositorioArchivo`).
+- **Refactorización del código**: División de métodos largos, nombres claros y eliminación de duplicación.
+- **Aplicación de principios SOLID**: SRP, OCP, LSP, ISP, DIP implementados en toda la arquitectura.
+- **Arquitectura MVC**: Separación clara entre Modelo, Vista y Controlador.
+- **Pruebas unitarias**: Validación de casos normales y límite con `TorneoTest.java`.
+- **Generación automática**: El archivo `torneos.csv` se crea automáticamente en la carpeta `datos/`.
 
--Instrucciones de instalación y uso
-1- Clonar el repositorio
-Abrir terminal o Git Bash y ejecutar:
-git clone https://github.com/USUARIO/NOMBRE-REPOSITORIO.git
+## Estructura del Proyecto
 
-2- Abrir el proyecto en NetBeans
-Abrir NetBeans
-Ir a: File - Open Project
-Seleccionar la carpeta del proyecto clonado
+### Modelo (modelo)
+- `Equipo.java` - Representa un equipo participante
+- `Partido.java` - Representa un enfrentamiento entre dos equipos
+- `Torneo.java` - Lógica del sorteo recursivo
 
-3- Ejecutar el programa
-Ubicar la clase principal:
-PruebaAV.java
-Click derecho - Run File
+### Vista (vista)
+- `ConsolaVista.java` - Interfaz de usuario por consola
 
-4- Uso de la aplicación
-Al ejecutar el programa, se mostrará en consola información de distintos contenidos audiovisuales:
+### Controlador (controlador)
+- `TorneoControlador.java` - Coordina la comunicación entre modelo y vista
 
-PELICULA   
-Titulo: Interstellar
-Genero: Ciencia Ficcion
-Actores:
-- Matthew McConaughey
+### Persistencia (persistencia)
+- `ITorneoRepositorio.java` - Interfaz para operaciones de persistencia
+- `TorneoRepositorioArchivo.java` - Implementación con archivos CSV
+- `PersistenciaException.java` - Manejo de excepciones personalizadas
 
-SERIE      
-TItulo: Breaking Bad
-Temporadas: 5
+### Pruebas
+- `TorneoTest.java` - Pruebas unitarias (6 casos: normales y límite)
+
+## Requisitos
+- Java JDK 17 o superior
+- Apache NetBeans / IntelliJ IDEA / Eclipse
+- Git (opcional, para clonar)
+
+## Cómo Clonar el Proyecto
+Ejecutar el siguiente comando:
+
+```bash
+git clone https://github.com/su-usuario/sorteo-torneos-unidad4
